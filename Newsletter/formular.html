@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Anmeldung zum Newsletter </title>
+</head>
+<body>
+	<h1> Anmeldung zum Newsletter </h1>
+	<form action="auswertung.php" method="post">
+	<br> <br>
+	Vorname: <input name="vn">
+	<p>
+	Nachname: <input name="nn">
+	<p>
+	E-Mail-Adresse: <input name="em">
+	<br>
+	Wie sind Sie auf unser Hotel aufmerksam geworden?
+	<p>
+	<select name="list" size="4"> <!--Auswahlliste-->
+	 <option value="f" selected>Freunde</option>
+	 <option value="z" selected>Zeitschriften</option>
+	 <option value="i" selected>Internet</option>
+	 <option value="w" selected>Werbung</option>
+	</select>
+	<p><p>
+	Wann haben Sie Ihren nächsten Urlaub geplant?
+	<!--Radiobuttons mit dem selben Namen gehören zusammen es kann 
+		nur einer angeklickt werden-->
+	<p><input type="radio" name="urlaub" value="bald">
+		in ca. 1-3 Monaten
+	<p><input type="radio" name="urlaub" value="spaeter">
+		in ca. 6 Monaten
+	<p><input type="radio" name="urlaub" value="nicht">
+		in diesem Jahr nicht mehr
+	<p> Wenn Sie uns etwas mitteilen möchten, finden Sie hier Platz:
+	<p> 	<!--mehrzeiliges Textfeld-->
+	<textarea name="mit" cols="50" rows="6"></textarea>
+	<p><p><!--Checkbox-->
+	<input type="checkbox" name="agb" value="ja">
+	Ich aktzeptiere die AGB´s.
+	<p><input type="reset" value="Löschen">
+	<p><input type="submit" value="Abschicken">
+</form>
+</body>
+</html>
+		
+	
+	
+	
+	

@@ -1,0 +1,43 @@
+body {	background-color: #BC8F8F;
+		font-family: Arial;
+		text-align: center;
+}
+h1 {text-align: center; 
+	background-image:url(bilder/hgblau.gif);
+}
+.gelb { padding: 20px;
+		background-color: #F0E68C;
+		width: 200px;
+		margin: auto;
+		border-radius: 10px;
+		text-align: center; 
+}
+.blau { padding: 20px;
+		background-color: #E0FFFF;
+		width: 500px;
+		margin: auto;
+}
+.gruen { padding: 20px;
+		background-color: #8DE721;
+		width: 500px;
+		margin: auto;
+}
+table { margin: 20px auto;
+}
+td { padding: 20px;
+}
+a:link {	color: #008080; 
+			text-decoration: none; 
+			font-weight: bold;
+}
+a:visited {color: #008080; 
+			text-decoration: none; 
+			font-weight: bold;
+}
+a:hover {	color: #008000; 
+			text-decoration: none; 
+			font-weight: normal;
+}
+a:active {	color: #008000; 
+			text-decoration: none; 
+}
